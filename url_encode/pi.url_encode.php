@@ -12,7 +12,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
  * @link			http://www.airtypestudio.com/
  */
 
-class URL_encode {
+class Url_encode {
 
 var $return_data = "";
 
@@ -28,10 +28,11 @@ var $return_data = "";
 	 */
 
 
-	function URL_encode()
+	function __construct()
 	{
 
-	$this->return_data = urlencode($this->EE->TMPL->tagdata);
+		$this->return_data = urlencode(ee()->TMPL->tagdata);
+
 	}
 
 }

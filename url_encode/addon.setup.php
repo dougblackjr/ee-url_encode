@@ -7,5 +7,5 @@ return array(
 	'author_url' => 'http://www.airtypestudio.com/',
 	'description' => 'Runs urlencode on a string of text.',
 	'settings_exist' => false,
-	'namespace' => 'URL_encode'
+	'namespace' => 'Url_encode'
 );
